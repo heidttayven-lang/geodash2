@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GeoDash</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GeoDash2</title>
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
 </head>
+
 <body>
+  <canvas id="game"></canvas>
 
-<canvas id="game"></canvas>
-
-<script src="js/player.js"></script>
-<script src="js/objects.js"></script>
-<script src="js/portals.js"></script>
-<script src="js/level.js"></script>
-<script src="js/editor.js"></script>
-<script src="main.js"></script>
-
+  <script src="./main.js" defer></script>
+  <script src="./editor.js" defer></script>
 </body>
 </html>
